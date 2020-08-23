@@ -1,0 +1,66 @@
+
+html {
+    box-sizing: border-box;
+  }
+  
+  *, *::before, *::after {
+    padding: 0;
+    margin-right: 0.6rem;
+    margin-left: 0.6rem;
+  }
+  
+  
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    background-color: white;
+    margin-bottom: 20px;
+    position:relative;
+  }
+  
+  nav ul li {
+    padding: 0.5em;
+    padding-top: 2em;
+    margin: 0;
+    color: #DC143C;
+  }
+  
+  nav ul li a {
+    color: #DC143C;
+    text-decoration: none;
+    
+  }
+  
+  .current {
+    border-bottom: 4px solid #DC143C;
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+  }
+  
+  p {
+    margin-bottom: 15px;
+  }
+  
+  
+  .Card-header {
+          width: 20px;
+          height: 20px;
+      }
+#horizontal-ruler{
+  /* padding-bottom: 2em; */
+
+}
+.button-mat-ui{
+  padding: 0;
+    right: 0;
+    position: absolute;
+    border: 1px solid crimson;
+}
+/* .sticky {
+  position: fixed;
+  top: 0;
+  width: 80%;
+} */
